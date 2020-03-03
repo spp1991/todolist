@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-Git clone the repository to your local machine in the src folder :
+Git clone the repository to your local machine folder of your choice :
 
 HTTPS:
 ```
