@@ -3,6 +3,7 @@ let finished_task_array=[];
 let unfinished_task_array=[];
 
 $(document).ready(function() {
+  
   updateTaskCount();
   $("#taskAdd").click(function(){
       taskDes=$('#taskDescription').val().trim();
@@ -14,6 +15,7 @@ $(document).ready(function() {
       else{
         alert("Task Description can not be blank");
       }
+  
   });
 
   $(".finishedButton").click(function(){
