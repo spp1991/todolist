@@ -38,7 +38,7 @@ $(document).ready(function() {
 function updateTaskCount(){
     $('#finishedTasksCount').html(finished_task_array.length);
     $('#unfinishedTasksCount').html(unfinished_task_array.length);
-  };
+ };
 
 function display_element(task_des,task_no,fou){
     li=$('.'+fou+'_'+'hidden').clone(true);
