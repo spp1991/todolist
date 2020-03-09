@@ -1,4 +1,4 @@
-# todolist
+# Todo list
 
 Application to manage daily task developed using jQuery.
 
