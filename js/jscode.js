@@ -21,7 +21,6 @@ $(document).ready(function() {
     updateArrays($(this).parent().parent().attr("taskno"));
     $(this).parent().remove();
     updateTaskCount();
-
   })
 
   $("li").mouseover(function(){
