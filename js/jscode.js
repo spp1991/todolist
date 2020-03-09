@@ -1,6 +1,6 @@
-var total_task=0;
-var finished_task_array=[];
-var unfinished_task_array=[];
+let total_task=0;
+let finished_task_array=[];
+let unfinished_task_array=[];
 
 
 $(document).ready(function() {
