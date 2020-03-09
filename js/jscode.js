@@ -55,7 +55,6 @@ function updateArrays(taskno){
     if(unfinished_task_array[i][1]== parseInt(taskno)){
       finished_task_array.push([unfinished_task_array[i][0],unfinished_task_array[i][1]]);
       unfinished_task_array.splice(i,1);
-
     }
   }
 }
